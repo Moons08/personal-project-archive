@@ -6,4 +6,9 @@
 #### what I used
 - scrapy, Xpath
 
-> result : meta.csv
+#### set files
+- [spider.py](https://github.com/Moons08/personal-project-archive/blob/master/180222_Scrapy_metacritic/Metacrawler/Metacrawler/spiders/spider.py)
+- [items.py](https://github.com/Moons08/personal-project-archive/blob/master/180222_Scrapy_metacritic/Metacrawler/Metacrawler/items.py)
+
+#### result
+-  [meta.csv](https://github.com/Moons08/personal-project-archive/blob/master/180222_Scrapy_metacritic/Metacrawler/meta.csv)
