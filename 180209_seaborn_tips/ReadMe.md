@@ -1,5 +1,5 @@
 ## Tips data
-
+[archive](https://github.com/Moons08/personal-project-archive)
 - data status (*from seaborn*)
     - columns : total_bill, tip, sex, smoker, day, time, size
     - number of rows : 244
