@@ -10,7 +10,7 @@ import csv
 class MetacrawlerPipeline(object):
     def __init__(self):
         self.csvwriter = csv.writer(open("meta.csv", "w"))
-        self.csvwriter.writerow(["title", "metascore", "userscore"])
+        self.csvwriter.writerow(["date", "title", "metascore", "userscore"])
 
     def process_item(self, item, spider):
         row = []
