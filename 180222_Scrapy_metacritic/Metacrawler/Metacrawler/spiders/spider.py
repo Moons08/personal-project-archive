@@ -25,4 +25,6 @@ class MetaSpider(scrapy.Spider):
         item["title"] = response.xpath('//*[@class="product_page_title oswald"]/h1/text()')[0].extract()
         item["metascore"] = response.xpath('//*[@id="nav_to_metascore"]/div[1]/div[2]/div[1]/a/div/text()')[0].extract()
         item["userscore"] = response.xpath('//*[@id="nav_to_metascore"]/div[2]/div[2]/div[1]/a/div/text()')[0].extract()
+        item["date"] = response.xpath('//*[@id="mantle_skin"]/div[4]/div[1]/div/div[1]/div[2]/div[2]/\
+                                        div[2]/table/tr/td[2]/span[2]/span[2]/text()')[0].extract()
         yield item

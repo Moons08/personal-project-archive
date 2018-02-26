@@ -5,7 +5,19 @@
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
+import csv
 
 class MetacrawlerPipeline(object):
+    def __init__(self):
+        self.csvwriter = csv.writer(open("meta.csv", "w"))
+        self.csvwriter.writerow(["title", "metascore", "userscore"])
+
     def process_item(self, item, spider):
+        row = []
+        if int(item["metascore"]) > 75 or int(item["userscore"]) > 7:
+            row.append(item["date"])
+            row.append(item["title"])
+            row.append(item["metascore"])
+            row.append(item["userscore"])
+            self.csvwriter.writerow(row)
         return item

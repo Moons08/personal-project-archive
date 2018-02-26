@@ -10,6 +10,7 @@ import scrapy
 
 class MetacrawlerItem(scrapy.Item):
     # define the fields for your item here like:
+    date = scrapy.Field()
     title = scrapy.Field()
     metascore = scrapy.Field()
     userscore = scrapy.Field()
