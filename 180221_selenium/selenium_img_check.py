@@ -34,7 +34,7 @@ for i in range(0, 10): #사진 갯수
             # choice iframe
             driver.switch_to_frame(iframe)
             # file upload
-            file_path = "/home/mk/documents/dev/TIL/project/180221_selenium/screenshot_element{}.png".format(i)
+            file_path = "/home/mk/documents/dev/personal-project-archive/180221_selenium/screenshot_element{}.png".format(i)
             driver.find_element_by_css_selector("#input").send_keys(file_path)
             doing = False
 
