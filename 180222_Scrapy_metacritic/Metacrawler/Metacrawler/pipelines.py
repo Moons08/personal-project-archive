@@ -14,7 +14,7 @@ class MetacrawlerPipeline(object):
 
     def process_item(self, item, spider):
         row = []
-        if int(item["metascore"]) > 75 or int(item["userscore"]) > 7:
+        if abs(int(item["metascore"])-float(item["userscore"])*10) >20:
             row.append(item["date"])
             row.append(item["title"])
             row.append(item["metascore"])
