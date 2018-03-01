@@ -2,7 +2,7 @@
 [archive](https://github.com/Moons08/personal-project-archive)
 
 #### what to do
-- scrape daily articles' headline with link
+- scrape daily headlines with link
 - send a result to my slack channel, every morning
 - in AWS, automatically
 
@@ -12,5 +12,5 @@
 
 
 
-#### result
--
+#### code
+- [newsfeed.py](https://github.com/Moons08/personal-project-archive/blob/master/180228_AWS_crontab/newsfeed.py)
