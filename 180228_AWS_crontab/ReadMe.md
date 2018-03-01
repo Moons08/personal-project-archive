@@ -12,4 +12,5 @@
 
 #### code
 - [newsfeed.py](https://github.com/Moons08/personal-project-archive/blob/master/180228_AWS_crontab/newsfeed.py)
+- [newsfeed2.py](https://github.com/Moons08/personal-project-archive/blob/master/180228_AWS_crontab/newsfeed2.py)
 - [crontab](https://github.com/Moons08/personal-project-archive/blob/master/180228_AWS_crontab/crontab.txt)
