@@ -5,7 +5,7 @@
     - number of rows : 244
 
 #### what to do
-- find a way to get more tip
+- find a way to get more tips
 
 #### what I used
 > pandas | seaborn | pgmpy
@@ -28,7 +28,7 @@
 #### conclusion
 
 - there is the feature of upper class
-- if every below conditions are fulfilled, the posibility of getting more tip goes up to **24%** rather than nothing fulfilled.
+- if every conditions below are fulfilled, the possibility of getting more tips goes up to **24%** rather than nothing fulfilled.
     - here are the conditions:
         >*In order of importance*
         > 1. size (>= 4)

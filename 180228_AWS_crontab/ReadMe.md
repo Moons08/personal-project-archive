@@ -3,8 +3,8 @@
 
 #### what to do
 - scrape daily headlines with link
-- send a result to my slack channel, every morning
-- in AWS, automatically
+- send results to my slack channel every morning
+- by AWS, automatically
 
 #### what I used
 - AWS, selenium, Xvfp, crontap

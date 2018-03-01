@@ -4,6 +4,9 @@ from pyvirtualdisplay import Display
 from selenium import webdriver
 
 date = datetime.date.today()
+display = Display(visible=0, size=(800, 600))
+display.start()
+
 def send_slack(msg):
 
     # 슬랙 웹훅 URL
@@ -36,8 +39,7 @@ def send_slack(msg):
     print(response)
 
 def get_article(page):
-    display = Display(visible=0, size=(800, 600))
-    display.start()
+
     driver = webdriver.Chrome()
     driver.get("http://news.naver.com/main/main.nhn?mode=LSD&mid =shm&sid1=105#&date="+str(date)+" 00:00:00&page=" + str(page))
     articles = driver.find_elements_by_css_selector('#section_body li')
