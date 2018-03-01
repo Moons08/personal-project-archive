@@ -1,0 +1,2 @@
+0 0 * * * python /home/ubuntu/newsfeed.py
+0 0 * * * python /home/ubuntu/time.py >> time.txt
