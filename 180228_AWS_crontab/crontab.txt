@@ -1,2 +1,1 @@
-0 0 * * * python /home/ubuntu/newsfeed.py
-0 0 * * * python /home/ubuntu/time.py >> time.txt
+00 00  * * * /home/ubuntu/.pyenv/shims/python3.6 newsfeed.py
