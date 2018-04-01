@@ -3,7 +3,7 @@
 
 - [First analysis note](https://github.com/Moons08/personal-project-archive/blob/master/180209_seaborn_tips/180209_seaborn_tips.ipynb)
 
-- [With Scikit-learn](https://github.com/Moons08/personal-project-archive/blob/master/180209_seaborn_tips/180209_seaborn_tips.ipynb)
+- [With Scikit-learn](https://github.com/Moons08/personal-project-archive/blob/master/180209_seaborn_tips/Tips_classification.ipynb)
 
 data status (*from seaborn*)
     - columns : total_bill, tip, sex, smoker, day, time, size
