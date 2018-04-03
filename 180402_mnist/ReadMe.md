@@ -7,4 +7,4 @@
 ### result
 - kaggle score: 0.969
 - with Extremely Randomized Trees
-- [ipynb](https://github.com/Moons08/personal-project-archive/180402_mnist/kaggle_mnist.ipynb)
+- [ipynb](https://github.com/Moons08/personal-project-archive/blob/master/180402_mnist/kaggle_mnist.ipynb)
