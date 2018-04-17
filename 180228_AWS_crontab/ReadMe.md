@@ -17,6 +17,9 @@
     - 00 00  * * * /home/ubuntu/.pyenv/shims/python3.6 newsfeed.py
     - need to check which python version to excute
 
+#### result
+![Alt text](https://github.com/Moons08/personal-project-archive/blob/master/180228_AWS_crontab/screenshot.png)
+
 #### review
 There was an error which took my time. The python code worked separatedly, but it did not work with crontab. I thoght that the python libraries crashed with crontab, such as Xvfb. I wasted time to figure it out. But, it was just a trivial crontab problem.
 
