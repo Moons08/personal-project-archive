@@ -1,7 +1,7 @@
 ## Personal project archive
 *each project has a summary and code* <br />
 
-### Data analize
+### Data analyze
 
 #### [Tips_data](https://github.com/Moons08/personal-project-archive/blob/master/180209_seaborn_tips/ReadMe.md)
 - find a way to get more tips
