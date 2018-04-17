@@ -9,7 +9,7 @@
 - kaggle image classification
 #### [Taxi Trip ](https://github.com/Moons08/personal-project-archive/tree/master/TaxiTrip)
 - regression project, only Statsmodels(OLS)
-#### [Walmart_TripType ](https://github.com/Moons08/personal-project-archive/blob/master/180209_seaborn_tips/ReadMe.md)
+#### [Walmart_TripType ](https://github.com/YounginLEE/DSS7_Walmart/tree/master/Main/ReadMe.md)
 - classification project
 
 ---
