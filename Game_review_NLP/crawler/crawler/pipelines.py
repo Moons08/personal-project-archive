@@ -8,7 +8,8 @@ import csv
 
 class CrawlerPipeline(object):
     def __init__(self):
-        self.csvwriter = csv.writer(open("user_review.csv", "w"))
+        # self.csvwriter = csv.writer(open("user_review.csv", "w"))
+        self.csvwriter = csv.writer(open("critic_review.csv", "w"))
         self.csvwriter.writerow(["title", "id", "score", "review"])
 
     def process_item(self, item, spider):

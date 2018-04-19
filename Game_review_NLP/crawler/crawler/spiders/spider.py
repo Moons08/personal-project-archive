@@ -33,13 +33,26 @@ class C_Spider(scrapy.Spider):
             item["title"] = title
             try:
                 item["id"] = review.xpath('./div/div/div/div/div/div[1]/div[1]/div[1]/div[1]/a/text()')[0].extract()
-                if not item["id"]:
-                    raise MakeError()
-            except:
-                item["id"] = review.xpath('./div/div/div/div/div/div[1]/div[1]/div[1]/div[1]/text()')[0].extract()
 
-            item["score"] = review.xpath('./div/div/div/div/ div/div[1]/div[1]/div[2]/div/text()')[0].extract()
-            item["review"] = review.xpath('./div/div/div/div/div/div[1]/div[2]/text()')[0].extract()
+            except:
+                item["id"] = review.xpath('./div/div/div/div/div/div[1]/div[1]/div[1]/div[1]/a/text()').extract()
+
+                if not item["id"]:
+                    try:
+                        item["id"] = review.xpath('./div/div/div/div/div/div[1]/div[1]/div[1]/div[1]/text()')[0].extract()
+                    except:
+                        item["id"] = review.xpath('./div/div/div/div/div/div[1]/div[1]/div[1]/div[1]/text()').extract()
+
+            try:
+                item["score"] = review.xpath('./div/div/div/div/ div/div[1]/div[1]/div[2]/div/text()')[0].extract()
+
+            except:
+                item["score"] = review.xpath('./div/div/div/div/ div/div[1]/div[1]/div[2]/div/text()').extract()
+
+            try:
+                item["review"] = review.xpath('./div/div/div/div/div/div[1]/div[2]/text()')[0].extract()
+            except:
+                item["review"] = review.xpath('./div/div/div/div/div/div[1]/div[2]/text()').extract()
 
             yield item
 
