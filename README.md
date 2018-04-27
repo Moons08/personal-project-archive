@@ -1,7 +1,7 @@
 ## Personal project archive
 *each project has a summary and code* <br />
 
-### Data analyze
+### Data analysis
 
 #### [Game Review](https://github.com/Moons08/game_review)
 - recommend system / NLP sentiment analyze
