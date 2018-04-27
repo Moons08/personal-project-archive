@@ -3,14 +3,16 @@
 
 ### Data analyze
 
+#### [Game Review](https://github.com/Moons08/game_review)
+- recommend system / NLP sentiment analyze
 #### [Tips_data](https://github.com/Moons08/personal-project-archive/blob/master/180209_seaborn_tips/ReadMe.md)
 - find a way to get more tips
-#### [MNIST](https://github.com/Moons08/personal-project-archive/blob/master/180402_mnist/ReadMe.md)
-- kaggle image classification
-#### [Taxi Trip ](https://github.com/Moons08/personal-project-archive/tree/master/TaxiTrip)
-- regression project, only Statsmodels(OLS)
 #### [Walmart_TripType ](https://github.com/YounginLEE/DSS7_Walmart/tree/master/Main/ReadMe.md)
 - classification project
+#### [Taxi Trip ](https://github.com/Moons08/personal-project-archive/tree/master/TaxiTrip)
+- regression project, only Statsmodels(OLS)
+#### [MNIST](https://github.com/Moons08/personal-project-archive/blob/master/180402_mnist/ReadMe.md)
+- kaggle image classification
 
 ---
 ### Programming
