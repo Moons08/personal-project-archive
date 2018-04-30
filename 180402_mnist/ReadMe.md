@@ -3,8 +3,10 @@
 [archive](https://github.com/Moons08/personal-project-archive)
 
 ### object
-- practice classification wtih scikit-learn
+- practice classification
 ### result
-- kaggle score: 0.969
-- with Extremely Randomized Trees
-- [ipynb](https://github.com/Moons08/personal-project-archive/blob/master/180402_mnist/kaggle_mnist.ipynb)
+- [CNN](https://github.com/Moons08/personal-project-archive/blob/master/180402_mnist/mnist_cnn.ipynb) - kaggle score - 0.98614
+- [Extremely Randomized Trees](https://github.com/Moons08/personal-project-archive/blob/master/180402_mnist/kaggle_mnist.ipynb) - kaggle score: 0.969
+
+#### To do
+- gridsearch
