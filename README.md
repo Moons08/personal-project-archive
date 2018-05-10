@@ -4,18 +4,32 @@
 ## Data analysis
 
 #### [Fraud Detection](https://github.com/Moons08/LightGBM-tutorial-Fraud_Detection)
-- kaggle competition
+- detect fraudulent click traffic from mobile app ads, Kaggle project
+- AUC score 0.9676 (1st score : 0.9843)
+- added LightGBM tutorial
 
 #### [Game Review](https://github.com/Moons08/game_review)
-- recommend system / NLP sentiment analyze
-#### [Tips_data](https://github.com/Moons08/personal-project-archive/blob/master/180209_seaborn_tips/ReadMe.md)
+- scrape reviews from Metacritic
+- build a score-based recommendation system
+- build NLP Sentiment prediction system
+- web embedding
+
+#### [Tips data](https://github.com/Moons08/personal-project-archive/blob/master/180209_seaborn_tips/ReadMe.md)
+- First data analysis without any models
 - find a way to get more tips
-#### [Walmart_TripType ](https://github.com/YounginLEE/DSS7_Walmart/tree/master/Main/ReadMe.md)
-- classification project
+- added classification model
+
+#### [Walmart TripType](https://github.com/YounginLEE/DSS7_Walmart/tree/master/Main/ReadMe.md)
+- predict customers trip type, Kaggle team project
+
 #### [Taxi Trip ](https://github.com/Moons08/personal-project-archive/tree/master/TaxiTrip)
-- regression project, only Statsmodels(OLS)
+- predict estimated trip duration in NY, Kaggle team project
+- only used Statsmodels(OLS)
+
 #### [MNIST](https://github.com/Moons08/personal-project-archive/blob/master/180402_mnist/ReadMe.md)
 - kaggle image classification
+- Randomforest model
+- CNN model added
 
 ## Programming
 
