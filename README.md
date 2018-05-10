@@ -1,7 +1,10 @@
-## Personal project archive
+# Personal project archive
 *each project has a summary and code* <br />
 
-### Data analysis
+## Data analysis
+
+#### [Fraud Detection](https://github.com/Moons08/LightGBM-tutorial-Fraud_Detection)
+- kaggle competition
 
 #### [Game Review](https://github.com/Moons08/game_review)
 - recommend system / NLP sentiment analyze
@@ -14,8 +17,7 @@
 #### [MNIST](https://github.com/Moons08/personal-project-archive/blob/master/180402_mnist/ReadMe.md)
 - kaggle image classification
 
----
-### Programming
+## Programming
 
 #### [AWS_test](https://github.com/Moons08/personal-project-archive/blob/master/180228_AWS_crontab/ReadMe.md)
 - scrape daily headlines with AWS
